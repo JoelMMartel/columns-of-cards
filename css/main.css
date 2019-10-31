@@ -43,8 +43,8 @@ h3 {
 }
 
 .quest {
-  flex-grow: 25%;
-  width: 25%
+  flex-grow: 1;
+  width: 25%;
   display: flex;
   flex-direction: column;
   padding: .75rem;
@@ -55,8 +55,8 @@ h3 {
 }
 
 .dino {
-  flex-grow: 25%;
-  width: 25%
+  flex-grow: 1;
+  width: 25%;
   display: flex;
   flex-direction: column;
   padding: .75rem;
@@ -67,8 +67,8 @@ h3 {
 }
 
 .dragon {
-  flex-grow: 25%;
-  width: 25%
+  flex-grow: 1;
+  width: 25%;
   display: flex;
   flex-direction: column;
   padding: .75rem;
@@ -79,8 +79,8 @@ h3 {
 }
 
 .laser {
-  flex-grow: 25%;
-  width: 25%
+  flex-grow: 1;
+  width: 25%;
   display: flex;
   flex-direction: column;
   padding: .75rem;
@@ -122,4 +122,9 @@ h2 {
   background-color: #000;
   border: solid 3px;
   border-color: #000;
+}
+
+.cover {
+  width: 100px;
+  justify-content: center;
 }
